@@ -12,29 +12,38 @@ body{
 }
 
 .container{
-	margin: auto;
-	float:none;
-	text-align: center;
+	//margin: auto;
+	//float:none;
+ 
+	//text-align: center;
 }
 .content{
-	margin-top: 200px;
-	display: table-cell;
-	text-align: center;
+	//margin-top: 200px;
+	//text-align: center;
 }
 
 .welcome{
+  //text-align: center;
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
 #romance-copy{
-  text-align: center; 
+  //text-align: center; 
   color: white;
-	font-family: Georgia,Serif;;
+	font-family: Georgia,Serif;
 }
 
+#romance-copy p{
+  margin-top: -6px;
+//  font-family: helvetica;
+}
+
+
+
 #call-to-action{
- text-align: center; 
- margin: auto;
+  margin-top: 15px;
+ //text-align: center; 
+ //margin: auto;
 }
 
 .btn-custom {
@@ -54,6 +63,11 @@ body{
   -webkit-font-smoothing: antialiased;
 }
 
+#request-invite {
+  //width: 100%;
+  position: absolute;
+  top: 35%;
+}
 
 @import "bootstrap-responsive";
 
