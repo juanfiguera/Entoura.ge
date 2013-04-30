@@ -25,6 +25,7 @@ gem 'sqlite3', :group => [:development, :test]
 gem "rspec-rails", ">= 2.12.2", :group => [:development, :test]
 gem "factory_girl_rails", ">= 4.2.0", :group => [:development, :test]
 
+gem 'google-analytics-rails'
 gem 'jquery-rails'
 gem "bootstrap-sass", ">= 2.3.0.0"
 gem "devise", ">= 2.2.3"

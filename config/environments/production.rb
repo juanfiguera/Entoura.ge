@@ -76,7 +76,8 @@ EntouraGe::Application.configure do
       :password  => ENV["MANDRILL_API_KEY"]
     }
 
-
+  # replace this with your tracker code
+  GA.tracker = "UA-37791585-1"
 
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
