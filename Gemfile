@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 gem 'rails', '3.2.13'
-gem 'sqlite3'
+
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
@@ -21,6 +21,7 @@ group :test do
 	gem "capybara", ">= 2.0.3"
 end
 
+gem 'sqlite3', :group => [:development, :test]
 gem "rspec-rails", ">= 2.12.2", :group => [:development, :test]
 gem "factory_girl_rails", ">= 4.2.0", :group => [:development, :test]
 
