@@ -77,7 +77,7 @@ EntouraGe::Application.configure do
     }
 
   # replace this with your tracker code
-  GA.tracker = "UA-37791585-1"
+  GA.tracker = "UA-xxxxxx-x"
 
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
